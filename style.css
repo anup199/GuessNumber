@@ -1,0 +1,39 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+h1,h3{
+    text-align: center;
+}
+
+#btnClick {
+    margin-top: 10px;
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+    background-color: blue;
+    color: wheat;
+    font-size: 25px;
+    font-weight: bold;
+}
+#inputNum{
+    height: 50px;
+    width: 200px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+
+}
